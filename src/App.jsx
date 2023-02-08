@@ -5,9 +5,9 @@ import Footer from "./Components/Footer/Footer";
 import Landing from "./Components/Landing/Landing";
 import Navbar from "./Components/Navbar/Navbar";
 import Prizes from "./Components/Prizes/Prizes";
-import Sponsors from "./Components/Prizes/Sponsors";
 import Register from "./Components/Register/Register";
-import Schedule from "./Components/Tracks/Schedule";
+import Schedule from "./Components/Schedule/Schedule";
+import Sponsors from "./Components/Sponsors/Sponsors";
 import Tracks from "./Components/Tracks/Tracks";
 
 function App() {
