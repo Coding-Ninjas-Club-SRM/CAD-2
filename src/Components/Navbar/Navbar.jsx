@@ -9,16 +9,16 @@ const Navbar = () => {
       <img src={logo} alt="CN logo" />
       <div className="h-12 w-[600px] rounded-lg drop-shadow-white bg-black bg-opacity-50 backdrop-blur-2xl backdrop-brightness-150">
         <ul className="flex flex-row justify-evenly items-center h-full w-full">
-          <li className="hover:scale-110 duration-200 hover:text-gray-200">
+          <li className="hover:scale-110 duration-200 hover:text-gray-200 hover:text-[#8758FF]">
             ABOUT
           </li>
-          <li className="hover:scale-110 duration-200 hover:text-gray-200">
+          <li className="hover:scale-110 duration-200 hover:text-gray-200 hover:text-[#8758FF]">
             SCHEDULE
           </li>
-          <li className="hover:scale-110 duration-200 hover:text-gray-200">
+          <li className="hover:scale-110 duration-200 hover:text-gray-200 hover:text-[#8758FF]">
             PRIZES
           </li>
-          <li className="hover:scale-110 duration-200 hover:text-gray-200">
+          <li className="hover:scale-110 duration-200 hover:text-gray-200 hover:text-[#8758FF]">
             SPONSORS
           </li>
         </ul>
