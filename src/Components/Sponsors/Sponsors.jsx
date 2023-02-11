@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./sponsors.module.css"
 const Sponsors = () => {
   return(
-    <div className={`${styles.bgimg} bg-black p-10 `}>
+    <div className={`${styles.bgimg} bg-black p-10 bg-opacity-85 `}>
       <div>
       <div className="w-full h-full flex flex-col  items-center text-[#FFFFFF]">
 
