@@ -8,7 +8,7 @@ const Tracks = () => {
     <>
       <div className="relative bg-cover bg-center grid text-white-off" style={{ backgroundImage: `url(${tracks})` }} >
 
-        <h1 className=" font-pixeboy mt-20 text-8xl justify-self-center text-shadow">TRACKS</h1>
+        <h1 className=" font-pixeboy mt-20 text-5xl lg:text-8xl justify-self-center text-shadow">TRACKS</h1>
 
         <div className="grid lg:grid-cols-3 lg:grid-rows-2 sm:grid-cols-2 sm:grid-rows-2 gap-28 mt-24 justify-self-center w-[80vw]">
 
