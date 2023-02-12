@@ -14,14 +14,13 @@ function App() {
   return (
     <div>
       <Navbar />
-
       <Landing />
       <About />
       <Register />
       <Schedule />
       <Tracks />
       <Sponsors />
-      <Prizes />
+     
 
       <Footer />
     </div>

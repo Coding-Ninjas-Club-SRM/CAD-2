@@ -1,0 +1,9 @@
+.bgimg {
+    background-image: url(./assets/footerimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:auto;
+    width: 100vw;
+    
+  };
+  
