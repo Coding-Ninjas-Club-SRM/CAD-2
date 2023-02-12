@@ -12,7 +12,7 @@ import Tracks from "./Components/Tracks/Tracks";
 
 function App() {
   return (
-    <div>
+    <div className="bg-gradient-to-b from-[#2A0637] to-black via-[#0D0221]">
       <Navbar />
       <Landing />
       <About />
