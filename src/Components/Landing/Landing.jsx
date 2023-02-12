@@ -15,7 +15,10 @@ const Landing = () => {
     },
   };
   return (
-    <div className="h-screen bg-gradient-to-b from-[#2A0637] to-black via-[#0D0221]">
+    <div
+      className="h-screen bg-gradient-to-b from-[#2A0637] to-black via-[#0D0221]"
+      name="landing"
+    >
       <div className="w-full h-full flex flex-col justify-center items-center">
         <img
           src={bg}
