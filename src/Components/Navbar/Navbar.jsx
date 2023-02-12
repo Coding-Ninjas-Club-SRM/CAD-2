@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 
 const Navbar = () => {
   return (
-    <div className="font-pixeboy text-white-off text-base md:text-lg w-full fixed top-12 flex items-center justify-around hover:cursor-pointer z-10">
+    <div className="font-pixeboy text-white-off text-base md:text-lg w-full fixed top-12 flex items-center justify-around hover:cursor-pointer z-50">
       <Link to="landing" smooth duration={500} offset={0}>
         <img src={logo} alt="CN logo" className="lg:block hidden" />
       </Link>
