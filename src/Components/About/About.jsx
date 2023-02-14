@@ -7,7 +7,10 @@ import lightning from "./assets/lightning.svg";
 
 const About = () => {
   return (
-    <div className="h-auto bg-black text-white-off flex flex-col w-full justify-center items-center py-10">
+    <div
+      className="h-auto bg-black text-white-off flex flex-col w-full justify-center items-center py-10"
+      name="about"
+    >
       <div className="flex flex-row justify-around items-center w-[95%] border-2 border-[#6C63FF] rounded-t-2xl">
         <div className="w-20 sm:w-28 md:w-40 lg:w-52">
           <img src={lightning} alt="" className="" />
