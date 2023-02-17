@@ -3,7 +3,7 @@ import styles from "./footer.module.css";
 const Footer = () => {
   return (
     <div
-      className={`${styles.bgimg} bg-cover bg-center flex flex-col  m-auto w-full bg-black text-white-off lg:text-xl p-2 text-lg`}
+      className={`${styles.bgimg} relative bg-cover bg-center flex flex-col  m-auto w-full bg-black text-white-off lg:text-xl p-2 text-lg`}
     >
       <div className="flex flex-col lg:flex-row  m-auto w-full ">
         <div className=" border-[#F5D7E3]  border-x-2  border-t-2 font-pixeboy mb-5 w-40 lg:w-80 mt-5 m-auto ">
@@ -13,7 +13,7 @@ const Footer = () => {
             <p className="px-10 my-2 ">Instagram Blender</p>
             <p className="px-10 my-2 ">Instagram (Photography)</p>
             <p className="px-10 my-2">Github</p>
-            <p className="px-10 my-2 ">Dribble</p>
+           
           </div>
         </div>
         <div className="border-[#F5D7E3]  border-x-2 font-pixeboy text-center w-40 lg:w-52 mt-5 m-auto">
@@ -21,6 +21,8 @@ const Footer = () => {
           <p className="px-10 my-2 ">Home</p>
           <p className="px-10 my-2 ">Project</p>
           <p className="px-10 my-2 ">Playground</p>
+          <p className="px-10 my-2 ">Dribble</p>
+          
         </div>
         <div className="p-6 text-center m-auto mt-10">
           <p>Creative dev. Itlay.</p>
@@ -31,15 +33,15 @@ const Footer = () => {
           <p>Sine march 2022</p>
           </div>
         </div>
-        <div className="m-auto text-center mt-5">Recycle</div>
+        {/* <div className="m-auto text-center mt-5">Recycle</div> */}
       </div>
 
       <div className="flex flex-col items-center justify-center text-center mt-2 font-pixeboy m-auto w-full ">
         <div>
           <p className="my-10">
-            Feel free to reach me anytime for any Questions
+          Feel free to reach me anytime for any questions.
           </p>
-          <p className="mb-10">Cookie Policy</p>
+          <p className="mb-10">Copyright &copy; coding ninjas SRM</p>
         </div>
         <div>
           <p>
