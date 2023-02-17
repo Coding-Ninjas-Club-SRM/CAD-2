@@ -30,13 +30,13 @@ const Schedule = () => {
         </div>
 
         <h1
-          className=" flex font-pixeboy text-8xl justify-center text-shadow"
+          className=" flex font-pixeboy text-5xl lg:text-8xl justify-center text-shadow"
           name="schedule"
         >
           SCHEDULE
         </h1>
 
-        <span className="flex text-4xl justify-center filter drop-shadow-lg">
+        <span className="flex text-2xl lg:text-5xl justify-center filter drop-shadow-lg">
           COMING SOON
         </span>
       </div>

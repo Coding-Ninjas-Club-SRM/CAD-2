@@ -10,7 +10,7 @@ const Tracks = () => {
         style={{ backgroundImage: `url(${tracks})` }}
         name="tracks"
       >
-        <h1 className=" font-pixeboy mt-20 text-8xl justify-self-center text-shadow">
+        <h1 className=" font-pixeboy mt-20 text-5xl lg:text-8xl  justify-self-center text-shadow">
           TRACKS
         </h1>
 
