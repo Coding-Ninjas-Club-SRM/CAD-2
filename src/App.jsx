@@ -9,6 +9,7 @@ import Register from "./Components/Register/Register";
 import Schedule from "./Components/Schedule/Schedule";
 import Sponsors from "./Components/Sponsors/Sponsors";
 import Tracks from "./Components/Tracks/Tracks";
+import Faq from "./Components/FAQ/Faq";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       <Schedule />
       <Tracks />
       <Sponsors />
-     
+     <Faq />
 
       <Footer />
     </div>
